@@ -6,7 +6,7 @@ async function getArticleText() {
     let rawMarkDown = await resp.text();
     let converter = new showdown.Converter();
     let articleHtml = converter.makeHtml(rawMarkDown);
-    let articleTag = document.querySelector('#article')
+    let articleTag = document.querySelector('.article__body')
     articleTag.innerHTML = articleHtml;
     console.log(articleHtml);
 }
