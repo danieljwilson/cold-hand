@@ -1,6 +1,4 @@
-# Just last week, 
-
-President Biden reportedly asked Education Secretary Miguel Cardona if a $50,000 student loan cancellation would be within the president’s powers.<sup>1</sup>
+Just last week, President Biden reportedly asked Education Secretary Miguel Cardona if a $50,000 student loan cancellation would be within the president’s powers.<sup>1</sup>
 
 Since his election, President Biden has continuously affirmed support for the cancellation of student debt. While Biden’s proposal began as a $10,000 loan forgiveness plan, calls from the more progressive Senate and House Democrats have pushed him to consider more ambitious proposals, including the cancellation of up to $50,000 of student loans for undergraduate and graduate students. 
  
