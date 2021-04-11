@@ -25,6 +25,8 @@
 }
 
 body {
+    width: 100vw;
     margin: 0;
     font-family: "Roboto Slab";
+    background-color: wheat;
 }
