@@ -1,4 +1,8 @@
-Since his election, President Biden has continuously affirmed support for the cancellation of student debt. While Biden’s proposal began as a $10,000 loan forgiveness plan, calls from the more progressive Senate and House Democrats have pushed him to consider more ambitious proposals, including the cancellation of up to $50,000 of student loans for undergraduate and graduate students. Just last week, President Biden reportedly asked Education Secretary Miguel Cardona if a $50,000 student loan cancellation would be within the president’s powers.<sup>1</sup>
+# Just last week, 
+
+President Biden reportedly asked Education Secretary Miguel Cardona if a $50,000 student loan cancellation would be within the president’s powers.<sup>1</sup>
+
+Since his election, President Biden has continuously affirmed support for the cancellation of student debt. While Biden’s proposal began as a $10,000 loan forgiveness plan, calls from the more progressive Senate and House Democrats have pushed him to consider more ambitious proposals, including the cancellation of up to $50,000 of student loans for undergraduate and graduate students. 
  
 Such a proposal would drastically alter the experiences of students throughout the U.S. Even at Stanford, which has one of the most generous financial aid policies in the country, 17 percent of students take out loans, and among these students, an average of $22,897 is owed after graduation, according to The Institute for College Access & Success’s 2019 report.<sup>2</sup> Biden’s student loan proposal would apply to the students receiving federal loans, 8.4% of the student body, significantly reducing that debt burden. 
 
