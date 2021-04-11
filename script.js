@@ -1,17 +1,14 @@
 'use strict';
 
-const articleUrl = 'https://apandit42.github.io/datathon2021/ARTICLE.md'
+async function getArticleText() {
+    const articleUrl = 'https://apandit42.github.io/datathon2021/ARTICLE.md';
+    let resp = await fetch(articleUrl);
+    let rawMarkDown = await resp.text();
+    let converter = new showdown.Converter();
+    let articleHtml = converter.makeHtml(rawMarkDown);
+    let articleTag = document.querySelector('#article')
+    articleTag.innerHTML = articleHtml;
+    console.log(articleHtml);
+}
 
-let markdowntext;
-
-fetch(articleUrl)
-    .then(res => res.text())
-    .then(text => {
-        markdowntext = text;
-    });
-
-let converter = new showdown.Converter();
-
-let html = converter.makeHtml(markdowntext);
-
-document.querySelector('.article').innerHTML = html;
+getArticleText();
