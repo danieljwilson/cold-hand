@@ -14,7 +14,9 @@ plausu, et sed, discordibus aera subiere alterius [unum](http://dederis.com/)
 laesit. Amplexus haereat *perque possent est* ducitur, ab viro **est** Laertes
 sanguine amissa totum terrigenis erat.
 
-<canvas id="vis1"></canvas>
+<div class=“flourish-embed flourish-scatter” data-src=“visualisation/5820490"><script src=“https://public.flourish.studio/resources/embed.js”></script></div>
+
+<div id="vis1"></div>
 
 ## Hora rite dextraque inminet illos
 
