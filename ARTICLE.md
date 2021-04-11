@@ -106,4 +106,4 @@ Debt forgiveness would give immediate relief to millions of students, significan
 
 **Methodological notes**
 
-Institutional-level data was only included for Bachelor’s degree-granting universities with at least 200 enrolled undergraduates. A minimum of 30 responses are necessary for a data point to exist. The average was calculated by averaging across the 2849 institutions included in the dataset.
+Institutional-level data was only included for Bachelor’s degree-granting universities with at least 200 enrolled undergraduates. A minimum of 30 responses are necessary for a data point to exist; colleges without sufficient data were excluded. The average was calculated by averaging across the 2061 institutions included in the dataset.
