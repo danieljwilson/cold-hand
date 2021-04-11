@@ -25,19 +25,22 @@
 }
 
 body {
+    overflow-x: hidden;
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 40vh 1fr;
+    grid-template-rows: 32vh 1fr;
     width: 100vw;
     min-height: 100vh;
     margin: 0;
     font-family: "Source Pro";
+    background-color: #FFFFFA;
 }
 
 .background__img {
     z-index: 1;
     background-image: url("img/grad.jpg");
     background-size: cover;
+    background-attachment: fixed;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
 }
@@ -54,11 +57,10 @@ body {
     font-size: 4rem;
     color: white;
     margin: 1rem 0 3rem;
-    text-shadow: 0.05rem 0.05rem black;
+    text-shadow: 0.05rem 0.05rem rgba(0, 0, 0, 0.5);
 }
 
 .article__body {
-    background-color: gainsboro;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }

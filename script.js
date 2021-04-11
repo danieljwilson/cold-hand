@@ -8,7 +8,6 @@ async function getArticleText() {
     let articleHtml = converter.makeHtml(rawMarkDown);
     let articleTag = document.querySelector('.article__body')
     articleTag.innerHTML = articleHtml;
-    console.log(articleHtml);
 }
 
 getArticleText();
