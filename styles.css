@@ -42,9 +42,10 @@ body {
 
 .background__img {
     z-index: 1;
-    background-image: url("img/grad.jpg");
+    background-color: #37829e;
+    /* background-image: url("img/grad.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     grid-column: 1 / 4;
     grid-row: 1 / 2;
 }
@@ -53,15 +54,21 @@ body {
     z-index: 10;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    align-self: end;
+    align-self: center;
     justify-self: center;
 }
 
 .article__title h1 {
-    font-size: 4rem;
-    color: white;
+    text-align: center;
     margin: 1rem 0;
+    color: white;
     text-shadow: 0.05rem 0.05rem rgba(0, 0, 0, 0.5);
+}
+
+.article__title > h3 {
+    text-align: center;
+    color: white;
+    margin: 0;
 }
 
 .article__body {
@@ -74,19 +81,19 @@ pre, code {
 }
 
 h1, h2 {
-    margin: 2rem 0;
+    margin: 1rem 0;
     font-family: "Roboto Slab";
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 p {
     font-family: "Source Pro";
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
