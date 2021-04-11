@@ -76,6 +76,8 @@ A proposal to cancel student debt up to $50,000 would cost $1 trillion<sup>4</su
 
 Debt forgiveness would give immediate relief to millions of students, significantly reducing the debt burden for the 70% of students who take out federal loans to finance college. At the same time, it would do little to address the institutional barriers in college access. College costs continue to rise, and financing a college education continues to be more difficult for Black students and students from less wealthy families. Even more students choose not to enroll in college at all due to inaccessible costs. Questions of college affordability, debt repayment, and racial wealth gaps are complex, and regardless of whether Biden pursues a loan forgiveness program of $10,000 or $50,000, broader reforms are necessary to make education equitable and accessible for all Americans.
 
+
+
 ---
 
 **Cited Sources**
