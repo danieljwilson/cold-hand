@@ -25,10 +25,14 @@
 }
 
 body {
+    margin: 0;
+}
+
+.content {
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 32vh 1fr;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 30vh 1fr;
     width: 100vw;
     min-height: 100vh;
     margin: 0;
@@ -47,7 +51,7 @@ body {
 
 .article__title {
     z-index: 10;
-    grid-column: 1 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
     align-self: end;
     justify-self: center;
@@ -56,13 +60,17 @@ body {
 .article__title h1 {
     font-size: 4rem;
     color: white;
-    margin: 1rem 0 3rem;
+    margin: 1rem 0;
     text-shadow: 0.05rem 0.05rem rgba(0, 0, 0, 0.5);
 }
 
 .article__body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+}
+
+pre, code {
+    overflow-x: scroll;
 }
 
 h1, h2 {
