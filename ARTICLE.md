@@ -14,6 +14,8 @@ plausu, et sed, discordibus aera subiere alterius [unum](http://dederis.com/)
 laesit. Amplexus haereat *perque possent est* ducitur, ab viro **est** Laertes
 sanguine amissa totum terrigenis erat.
 
+<canvas id="vis1"></canvas>
+
 ## Hora rite dextraque inminet illos
 
 Dextra erat, est ait simulacra totas, illa dulce tempestate tamen, calet Ammon;
