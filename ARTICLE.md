@@ -100,17 +100,19 @@ Debt forgiveness would give immediate relief to millions of students, significan
 
 **Data Sources, by visualization (cleaned data sources are all accessible in [GitHub data folder](https://github.com/apandit42/datathon2021/tree/main/data) )**
 
-(1) U.S. Department of Education, National Center for Education Statistics, 2007–08 National Postsecondary Student Aid Studies
+(1) U.S. Department of Education, Digest of Education Statistics, Table Table 330.10
 
-(2) U.S. Department of Education annual official cohort default rates
+(2) U.S. Department of Education, National Center for Education Statistics, 2007–08 National Postsecondary Student Aid Studies
 
-(3) U.S. Department of Education College Scorecard data
+(3) U.S. Department of Education annual official cohort default rates
 
-(4) U.S. Department of Education, Digest of Education Statistics, Table Table 331.95
+(4) U.S. Department of Education College Scorecard data
 
-(5) U.S. Department of Education, National Center for Education Statistics, 2007–08 National Postsecondary Student Aid Studies
+(5) U.S. Department of Education, Digest of Education Statistics, Table Table 331.95
 
-(6) Brookings Institution, (2016). https://www.brookings.edu/research/black-white-disparity-in-student-loan-debt-more-than-triples-after-graduation/
+(6) U.S. Department of Education, National Center for Education Statistics, 2007–08 National Postsecondary Student Aid Studies
+
+(7) Brookings Institution, (2016). https://www.brookings.edu/research/black-white-disparity-in-student-loan-debt-more-than-triples-after-graduation/
 
 **Methodological notes**
 
