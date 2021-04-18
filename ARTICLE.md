@@ -5,14 +5,28 @@ Have things changed since 1985? While many aspects of the NBA have developed in 
 
 <div id="vis0"><div class="flourish-embed flourish-chart" data-src="visualisation/5894229"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
 
-## The Concept
-I was curious if a look at a more modern NBA season (2015-16) and looking at all teams (instead of just the Philadelphia 76ers, as in the original paper) would replicate the original finding.
+I was curious if a look at a more modern NBA season (2015-16) and looking at all players on all teams (instead of just 9 players on the Philadelphia 76ers, as in the original paper) would replicate the original finding.
 
 ## Results
-What I found neither replicated the original finding nor supported the lay theory of "hot-handedness". Instead I found the opposite. If a player had made their previous shot attempt they were **less** likely to make their subsequent attempt. 
+What I found largely replicated the original finding, going against the lay theory of "hot-handedness". However, whereas the original paper did not find a significant effect, with the much higher sample the results I found were strongly significant. If a player had made their previous shot attempt they were **less** likely to make their subsequent attempt.
 
-<div id="vis1"><div class="flourish-embed flourish-chart" data-src="visualisation/5820723"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
+The data from the original paper are suggestive of a **downward** trend in shooting percentage the more shots you have previously hit. In other words, the **hotter** your hand, the more likely you are to miss, as you can see below.
 
+<div id="vis1"><div class="flourish-embed flourish-chart" data-src="visualisation/5894910"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
+
+In my data from 2015 increasing the *n* from 9 to 200...
+
+More to come...
+
+---
+
+However, Stanford students are not representative of the average college student. Our analysis of debt data helps contextualize what Biden’s loan forgiveness plan would mean for undergraduate students across the country.
+ 
+## The current student debt picture
+
+### How much student debt do undergraduates have?
+ 
+In 2016, around two-thirds of Bachelor’s degree recipients took out federal loans, graduating with an average cumulative debt of $29,210 owed to the federal government. The vast majority of students with greater loan obligations attended for-profit universities.
 
 A $10,000 loan forgiveness program would eliminate an additional 11% of college graduates’ debt entirely and make a significant impact on most students’ loans. A loan forgiveness plan for $50,000 would eliminate debt for nearly all Bachelor’s degree recipients.
 
@@ -82,15 +96,9 @@ Debt forgiveness would give immediate relief to millions of students, significan
 
 **Cited Sources**
 
-[1] https://thehill.com/homenews/administration/546065-biden-requesting-information-on-legal-authority-to-cancel-student 
+[1] Gilovich, T., Vallone, R., & Tversky, A. (1985). The hot hand in basketball: On the misperception of random sequences. Cognitive psychology, 17(3), 295-314.
 
-[2] https://ticas.org/interactive-map/
-
-[3] https://www.bls.gov/careeroutlook/2020/data-on-display/education-pays.htm
-
-[4] https://www.brookings.edu/blog/up-front/2021/02/12/putting-student-loan-forgiveness-in-perspective-how-costly-is-it-and-who-benefits/
-
-[5] https://usafacts.org/visualizations/the-big-picture/
+[2] 
 
 **Data Sources, by visualization (cleaned data sources are all accessible in [GitHub data folder](https://github.com/apandit42/datathon2021/tree/main/data) )**
 
