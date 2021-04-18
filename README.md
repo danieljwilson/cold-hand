@@ -1,7 +1,9 @@
-# Datathon 2021 Project
-# Datathon 2021 Project
-## Examining Student Loan Debt & the Potential Impact of Student Loan Debt Cancellation
+# Cold Hand
+## A Re-examination of the Hot Hand Phenonmenon
 
-Project by Ayush, Lena, and Claire.
+Inspired by 
 
-Team 104
+---
+Built off of work done at by Ayush, Lena, and Claire for the [Stanford Open Datathon 2021](https://datathon.stanford.edu/)
+
+Their project: [Examining Student Loan Debt & the Potential Impact of Student Loan Debt Cancellation](https://apandit42.github.io/datathon2021/)
