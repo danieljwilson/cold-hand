@@ -16,7 +16,7 @@ function applyVis() {
     const vel0 = document.getElementById('vis0');
     setInnerHTML(vel0, v0Html);
 
-    const v1Html = `<div class="flourish-embed flourish-chart" data-src="visualisation/5820723"><script src="https://public.flourish.studio/resources/embed.js"></script></div>`;
+    const v1Html = `<div class="flourish-embed flourish-chart" data-src="visualisation/5894910"><script src="https://public.flourish.studio/resources/embed.js"></script></div>`;
     const vel1 = document.getElementById('vis1');
     setInnerHTML(vel1, v1Html);
     // vel1.innerHTML = v1Html;
