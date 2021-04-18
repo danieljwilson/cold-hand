@@ -12,7 +12,7 @@ let setInnerHTML = function(elm, html) {
 };
 
 function applyVis() {
-    const v0Html = '<div class="flourish-embed flourish-chart" data-src="visualisation/5824595"><script src="https://public.flourish.studio/resources/embed.js"></script></div>';
+    const v0Html = '<div class="flourish-embed flourish-chart" data-src="visualisation/5894229"><script src="https://public.flourish.studio/resources/embed.js"></script></div>';
     const vel0 = document.getElementById('vis0');
     setInnerHTML(vel0, v0Html);
 
