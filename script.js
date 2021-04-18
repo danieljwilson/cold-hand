@@ -44,7 +44,7 @@ function applyVis() {
 }
 
 async function getArticleText() {
-    const articleUrl = 'https://apandit42.github.io/datathon2021/ARTICLE.md';
+    const articleUrl = 'https://danieljwilson.github.io/cold-hand/ARTICLE.md';
     let resp = await fetch(articleUrl);
     let rawMarkDown = await resp.text();
     let converter = new showdown.Converter();
