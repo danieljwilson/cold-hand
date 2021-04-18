@@ -1,21 +1,15 @@
-Just last week, President Biden reportedly asked Education Secretary Miguel Cardona if a $50,000 student loan cancellation would be within the president’s powers.<sup>1</sup>
+## Introduction
+As a fan of both basketball and psychology I have often come across references to the 1985 paper "The hot hand in basketball: On the misperception of random sequences". Written by Thomas Gilovich, Robert Vallone and Amos Teversky, their goal was to test the common belief that shooting tends to be "streaky" -- that is to say that players should be more likely to hit a shot if they had made their previous shot, and vice versa.<sup>1</sup>
 
-Since his election, President Biden has continuously affirmed support for the cancellation of student debt. While Biden’s proposal began as a $10,000 loan forgiveness plan, calls from the more progressive Senate and House Democrats have pushed him to consider more ambitious proposals, including the cancellation of up to $50,000 of student loans for undergraduate and graduate students. 
+Have things changed since 1985? While many aspects of the NBA have developed in the past 36 years (which happens to be the same age as Lebron James) in terms of strategy, diet, an influx of foreign talent and social media, overall shooting percentages have remained remarkably consistent. So, perhaps the hot-hand finding (or the lack of a hot-hand phenomenon) would also hold.
 
+<div id="vis0"><div class="flourish-embed flourish-chart" data-src="visualisation/5894229"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
 
-<div id="vis0"><div class="flourish-embed flourish-chart" data-src="visualisation/5824595"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
+## The Concept
+I was curious if a look at a more modern NBA season (2015-16) and looking at all teams (instead of just the Philadelphia 76ers, as in the original paper) would replicate the original finding.
 
-
-Such a proposal would drastically alter the experiences of students throughout the U.S. Even at Stanford, which has one of the most generous financial aid policies in the country, 17 percent of students take out loans, and among these students, an average of $22,897 is owed after graduation, according to The Institute for College Access & Success’s 2019 report.<sup>2</sup> Biden’s student loan proposal would apply to the students receiving federal loans, 8.4% of the student body, significantly reducing that debt burden. 
-
-However, Stanford students are not representative of the average college student. Our analysis of debt data helps contextualize what Biden’s loan forgiveness plan would mean for undergraduate students across the country.
- 
-## The current student debt picture
-
-### How much student debt do undergraduates have?
- 
-In 2016, around two-thirds of Bachelor’s degree recipients took out federal loans, graduating with an average cumulative debt of $29,210 owed to the federal government. The vast majority of students with greater loan obligations attended for-profit universities.
-
+## Results
+What I found neither replicated the original finding nor supported the lay theory of "hot-handedness". Instead I found the opposite. If a player had made their previous shot attempt they were **less** likely to make their subsequent attempt. 
 
 <div id="vis1"><div class="flourish-embed flourish-chart" data-src="visualisation/5820723"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
 
