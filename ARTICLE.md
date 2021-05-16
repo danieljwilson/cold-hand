@@ -1,22 +1,49 @@
 ## Introduction
 As a fan of both basketball and psychology I have often come across references to the 1985 paper "The hot hand in basketball: On the misperception of random sequences". Written by Thomas Gilovich, Robert Vallone and Amos Teversky, their goal was to test the common belief that shooting tends to be "streaky" -- that is to say that players should be more likely to hit a shot if they had made their previous shot, and vice versa.<sup>1</sup>
 
-Have things changed since 1985? While many aspects of the NBA have developed in the past 36 years (which happens to be the same age as Lebron James) in terms of strategy, diet, an influx of foreign talent and social media, overall shooting percentages have remained remarkably consistent. So, perhaps the hot-hand finding (or the lack of a hot-hand phenomenon) would also hold.
+Many aspects of the NBA have developed in the past 36 years (which happens to be the same age as Lebron James) in terms of strategy, diet, an influx of foreign talent and social media. That said, overall shooting percentages have remained remarkably consistent.
 
 <div id="vis0"><div class="flourish-embed flourish-chart" data-src="visualisation/5894229"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
 
 I was curious if a look at a more modern NBA season (2015-16) and looking at all players on all teams (instead of just 9 players on the Philadelphia 76ers, as in the original paper) would replicate the original finding.
 
-## Results
-What I found largely replicated the original finding, going against the lay theory of "hot-handedness". However, whereas the original paper did not find a significant effect, with the much higher sample the results I found were strongly significant. If a player had made their previous shot attempt they were **less** likely to make their subsequent attempt.
-
-The data from the original paper are suggestive of a **downward** trend in shooting percentage the more shots you have previously hit. In other words, the **hotter** your hand, the more likely you are to miss, as you can see below.
+The data from the original paper are suggestive of a **downward** trend in shooting percentage the more shots you have previously hit. In other words, the **hotter** your hand, the more likely you are to miss, as you can see below (choose "All Players" to get the team average).
 
 <div id="vis1"><div class="flourish-embed flourish-chart" data-src="visualisation/5894910"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
+
+## Results
+As someone who has played and watched a lot of basketball I have to admit I found our main finding surprising, even if it did simply confirm the original paper. Since the original paper did not find a statistically significant trend (due to having small sample size), it was possible that their results were a fluke. Something that just happened that season with that particular team. However our data showed a very similar pattern to the 1985 paper. If a player had made their previous shot attempt they were **less** likely to make their subsequent attempt. This was exacerbated the longer their streak was, prior to their current shot. You can see the overall percentages for all players in the plot below.
+
+<div id="vis2"><div class="flourish-embed flourish-chart" data-src="visualisation/6096181"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
+
+A couple of things worth pointing out:
+1. The data gets noisier as we increase the length of the streak preceeding a given shot. This is to be expected as while a 1 or 2 shot streak woud be very common, a 5 shot streak is much rarer. So there is less data to examine.
+2. If you look closely you can see that there is a systemic difference between the make and miss sequences (though this easier to view in the dot plot below)
+
+<div id="vis3"><div class="flourish-embed flourish-scatter" data-src="visualisation/6161021"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
+
+Noise based on number of shots (see Figure 3)
+
+
+However, whereas the original paper did not find a significant effect with a sample size of 9 players, using data from all teams allowed for a much more highly powered dataset of 165 players.
+
+
+
+## Discussion
+Become overconfident and take worse shots.
+A lot of noise. 
+There may be multiple reactions to missing a shot depending on the individual. Maybe some people get down on themselves and it shakes their confidence. Maybe some people decide to only take a shot if it is a "good" shot with a high percentage chance of going in. 
+
+Miss a couple lose confidence and only take easy shots...
+Heat check shot.
+
 
 In my data from 2015 increasing the *n* from 9 to 200...
 
 More to come...
+
+Add data table?
+
 
 ---
 
@@ -35,7 +62,7 @@ A $10,000 loan forgiveness program would eliminate an additional 11% of college 
 While the prospect of student debt may be a stressful experience for college graduates, debt is not inherently bad. In the U.S., college remains one of the best ways to increase future earnings; according to the Bureau of Labor Statistics, in 2019, the median weekly earnings among workers with a bachelor’s degree was $1,248, compared to $746 for those with just a high school diploma.<sup>3</sup> Over the course of a lifetime, this can mean an additional $1 million of earnings. Taking out some loans to achieve greater future financial stability is a system that can work when students are able to pay off their investment. As a result, a more illuminating statistic may be the default rates for college graduate cohorts, calculated as the percentage of students who fail to make payments for nine months in the first three years of loan repayment. 
 
 
-<div id="vis2"><div class="flourish-embed flourish-chart" data-src="visualisation/5821251"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
+
 
 
 Default rates hovered around 5% throughout the 2000s, jumped up during the Great Recession, and have slowly declined since. The most recent cohort of graduates, from 2017, had a 9.7% default rate, still above pre-recession levels. A one-time loan forgiveness program may help default rates return to pre-recession levels. Notably, this statistic focuses on loan repayment immediately after graduating college but does not account for those who spend decades struggling to make minimums on student loans or may default later in their careers. Thus, while a debt forgiveness program may benefit those who have defaulted on their loans the most, it would lift a significant burden for all debt holders.
@@ -45,7 +72,6 @@ Default rates hovered around 5% throughout the 2000s, jumped up during the Great
 Although these aggregate metrics tell part of the story, students at different institutions face different debt scenarios. While students at Stanford may not need a $10,000 loan forgiveness program to eliminate their student debt, students across the country all face different employment situations after graduation. Some schools give more generous aid to low-income students; others tend to place students in higher-paying jobs after graduation. The below visualization though, which plots the seven-year student loan repayment rate against the average net price of the university (sticker price minus scholarships) for different income ranges shows a consistent trend: low-income students find it more difficult to pay off their debt, despite tending to pay a lower net price for college.
 
 
-<div id="vis3"><div class="flourish-embed flourish-scatter" data-src="visualisation/5820490"><script src="https://public.flourish.studio/resources/embed.js"></script></div></div>
 
 
 ## Would cancelling student debt help eliminate the wealth gap?
