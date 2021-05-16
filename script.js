@@ -26,7 +26,7 @@ function applyVis() {
     // vel2.innerHTML = v2Html;
     setInnerHTML(vel2, v2Html);
 
-    const v3Html = `<div class="flourish-embed flourish-scatter" data-src="visualisation/5820490"><script src="https://public.flourish.studio/resources/embed.js"></script></div>`;
+    const v3Html = `<div class="flourish-embed flourish-scatter" data-src="visualisation/6161021"><script src="https://public.flourish.studio/resources/embed.js"></script></div>`;
     const vel3 = document.getElementById('vis3');
     vel3.innerHTML = v3Html;
 
