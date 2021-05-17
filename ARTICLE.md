@@ -29,11 +29,15 @@ However, whereas the original paper did not find a significant effect with a sam
 
 
 ## TO DO
+- Weight by shots
+    - now all players receive equal weights
 - Subtract make from miss
     - Look at distribution
     - Look at players in the tails
 - How to compare the two?
     - T-Test?
+- Thinking about variance?
+- Compare with other metrics? PER?
 
 
 
