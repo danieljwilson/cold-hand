@@ -28,6 +28,14 @@ Noise based on number of shots (see Figure 3)
 However, whereas the original paper did not find a significant effect with a sample size of 9 players, using data from all teams allowed for a much more highly powered dataset of 165 players.
 
 
+## TO DO
+- Subtract make from miss
+    - Look at distribution
+    - Look at players in the tails
+- How to compare the two?
+    - T-Test?
+
+
 
 ## Discussion
 Become overconfident and take worse shots.
@@ -43,6 +51,8 @@ In my data from 2015 increasing the *n* from 9 to 200...
 More to come...
 
 Add data table?
+
+
 
 
 ---
